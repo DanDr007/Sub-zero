@@ -1,0 +1,12 @@
+
+    <!-- form -->
+    <div class="form">
+        <h1>Editar debilidad</h1>
+        <form class="form-form" action="/editWeak/{{ weak._id }}?_method=PUT" method="POST">
+            <input type="hidden" name="_method" value="PUT">
+            <input type="text" placeholder="Nombre de la debilidad" value="{{ weak.name }}" name="name">
+            <input type="text" placeholder="Descripcion de la debilidad" value="{{ weak.description }}" name="description">
+            <input type="submit" value="Guardar">
+        </form>
+    </div>
+    <img src="/images/fondo.jpg" alt="ZubZero" class="zubzero">

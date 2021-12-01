@@ -1,0 +1,18 @@
+
+    <div class="debilidades">
+
+        {{#each weaks}}
+        <div class="debilidad">
+            <h3>{{ name }}</h3>
+            <p>{{ description }}</p>
+            <div class="acciones">
+                <form action="/delWeak/{{ _id }}?_method=DELETE" method="POST">
+                    <input type="hidden" name="_method" value="DELETE">
+                    <input type="submit" value="Eliminar">
+                </form>
+                <a href="/editWeak/{{ _id }}">Editar</a>
+            </div>
+        </div>
+        {{/each }}
+
+    </div>

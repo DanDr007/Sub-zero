@@ -111,9 +111,9 @@ nav img {
 }
 
 .debilidades {
-    width: 88%;
-    height: 75vh;
-    margin: 80px auto;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -154,6 +154,7 @@ nav img {
     font-weight: 600;
     margin-right: 30px;
     border: none;
+    cursor: pointer;
 }
 
 .acciones a {
@@ -167,6 +168,7 @@ nav img {
     margin-right: 30px;
     border: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -218,4 +220,26 @@ nav img {
     width: 225px;
     font-weight: 600;
     cursor: pointer;
+}
+
+
+.errors {
+    margin: 20px 100px 0 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 15px;
+    color: #fff;
+    background: #fc4a55;
+}
+
+
+.succes {
+    margin: 20px 100px 0 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 15px;
+    color: #fff;
+    background: #3ebc5e;
 }
